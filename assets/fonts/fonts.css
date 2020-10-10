@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Arial bold';
+    src: url('Arial-BoldMT.woff2') format('woff2'),
+        url('Arial-BoldMT.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial bolditalic';
+    src: url('Arial-BoldItalicMT.woff2') format('woff2'),
+        url('Arial-BoldItalicMT.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial regular';
+    src: url('ArialMT.woff2') format('woff2'),
+        url('ArialMT.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Arial CE';
+    src: url('Arial-ItalicMT.woff2') format('woff2'),
+        url('Arial-ItalicMT.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Caecilia bold';
+    src: url('CaeciliaLTPro-75Bold.woff2') format('woff2'),
+        url('CaeciliaLTPro-75Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Caecilia italic';
+    src: url('CaeciliaLTPro-56Italic.woff2') format('woff2'),
+        url('CaeciliaLTPro-56Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Caecilia Roman';
+    src: url('CaeciliaLTPro-55Roman.woff2') format('woff2'),
+        url('CaeciliaLTPro-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
