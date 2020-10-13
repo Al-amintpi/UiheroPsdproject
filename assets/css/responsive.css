@@ -1,226 +1,269 @@
-@media all and (min-width: 991px){
-	.banner-content hr {
-	  margin: 8px 190px;
-	}
+@media all and (min-width: 992px){
+	  
 }
 
 @media all and (max-width: 991px){
-	.menu {
-		display: none;
-	}
-	.menu ul{
-		justify-content: start;
-		flex-direction: column;
-	}
 
-	.menu ul li {
-		margin-top: 1rem;
-		}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
-	.logo{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}	
+.logo a i {
+	font-size: 2.5rem;
+	color: #fff;
+	padding: 1rem 1rem;
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
 
-	 
-
-	.logo a i {
-		color: #FFF;
-		font-size: 2.5rem;
-		border: 1px solid #FFF;
-		border-radius: 3px;
-		padding: 5px 10px;
-	}
-
-	.logo a i:hover{
-		background: #02baab;
-	}
-
-	.menu-icon{
-		display: block;
-	}
-
-	/******** banner content **********/
-	.banner-content {
-		margin: 6rem 0;
-	}
-
-	.banner-content h1{
-		font-size: 4.2rem;
-	}
-
-	.banner-content hr {
-		margin: 9px 125px;
-		 
-	}
-
-	.banner-text {
-		padding-bottom: 8rem;
-	}
-
-	.banner-content h2{
-		font-size: 1.8rem;
-
-	}
-
-	/****single button****/
-	.single-button{
-		left: 37%;
-	}
-
-	/***********form responsive*************/
-
-	
-	.contact-form .input1 {
-    	margin-right: 0;
-	}
-
-	.contact-form .input2{
-		margin-top: 2rem;
-	}
-
-	.contact-form .input3{
-		width: 569px;
-	}
-
-	.sub-content h3{
-		line-height: 13px;
-		font-size: 2rem;
-	}
-
-
-	.main-overlycontent{
-		margin-top:15rem;
-	}
-	
-	.sub-content p{
-		font-size: 1.9rem;
-	}
+.menu-icon{
+	display: block;
 }
 
 
-@media all and (max-width: 767px){
+.menu{
+	display: none;
+}
 
-	/***** Banner content****/
-	.banner-content {
-		margin: 3rem 0;
-	}
-
-	.banner-content h1{
-		font-size: 3.7rem;
-	}
-
-	.banner-text {
-		padding-bottom: 5rem;
-	}
-
-	.banner-content hr {
-		margin: 6px 42px; 
-	}
-
-	/****single button****/
-	.single-button{
-		left: 32%;
-	}
-
-	/****works responsive*****/
-	.skills-workflow {
-		margin-bottom: 3rem;
-	}
-
-	.portfolio-single-item {
-		margin-bottom: 4rem;
-	}
-
-	/***form responsive***/
-	.contact-form .input3 {
-		width: 520px;
-	}
-
-	/*footer icon responsive*/
-	.footer-icon ul li{
-		width:7rem;
-		height: 7rem;
-	}
-
-	.footer-icon ul li{
-		padding: 0;
-	}
-
-	.footer-icon ul li a {
-		line-height: 6rem;
-	}
-
-	.footer-icon{
-		margin: 0px 100px;
-	}
-
-	.sub-content h3{
-		line-height: 23px;
-		font-size: 3rem;
-	}
-
-	.main-overlycontent{
-		margin-top:13.6rem;
-	}
-
-
+.menu {
+	position: absolute;
+	top: 99px;
+	left: 0px;
+	background: rgb(0,0,0,.5);
+	width: 50%;
+	margin: 0 auto;
+	right: 0px;
 } 
+
+.menu ul{
+	text-align: center;
+}
+
+.menu ul li a {
+	margin-top: 1rem;
+}
+
+.web-mobile-content h1, 
+.promotional-video-description h1 {
+	font-size: 3rem;
+ 
+}
+
+.web-mobile-content h2,
+.promotional-video-description h2 {
+	margin-bottom: .5rem;
+	font-size: 2rem;
+}
+
+.web-mobile-content h3,
+.promotional-video-description h3 {
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
+.web-mobile-content a,
+.promotional-video-description a {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin-top: 1rem;	 
+}
+
+.promotional-video-area {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.qoute-icon {
+	margin-top: 3rem;
+}
+
+.qoute-icon i {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.qoute-content h1 {
+	font-size: 2.5rem;
+	width: 100%;
+}
+
+.profile-picture {
+	width: 180px;
+	height: 180px;
+}
+
+.profile-content {
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+.profile-content > h1 {
+font-size: 2.5rem;
+}
+
+.profile-content > h2 {
+	font-size: 2rem;
+}
+
+.qoute-profile{
+	width: 63%;
+}
+
+.mobile-desciption h1 {
+	font-size: 3rem;
+}
+
+.mobile-desciption h2{
+	font-size: 2rem;
+	margin:.5rem 0;
+}
+
+.mobile-desciption p {
+font-size: 2rem;
+margin-bottom: 3rem;
+}
+.mobile-desciption-icon ul li span{ 
+	font-size: 2rem;
+}
+
+.mobile-description-area h3 {
+	font-size: 2rem;
+}
+
+.mobile-description-area a {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin: 1rem 0;
+}
+
+.pricing-content {
+    margin: 3rem auto;
+    max-width: 60%;
+
+}
+
+@media all and (max-width: 767px){
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.pricing-content {
+	    margin: 3rem auto;
+	    max-width: 100%;
+
+	}
+
+	.overly-border {
+		margin: 13px auto;
+		width: 83%;
+	}
+	 
+}
 
 
 @media all and (max-width: 575px){
 
-	.banner-content {
-		margin: 1.7rem 0;
-	}
-	.banner-content h1{
-		font-size: 2.5rem;
-	}
-
-	.banner-content h2 {
-		font-size: 1.3rem;
-	}
-
-	.banner-content hr {
-		display: none;
-	}
-
-	/****single button****/
-	.single-button{
-		left: 25%;
-	}
-
-	.btn-sty-1{
-		width: 20rem;
-	}
-
-	/**** Rapihel section ****/
-	.introduction-content h2 {
-		color: #6c7979;;
-		line-height: 23px;
-		margin: 0px 17px;
-		text-align: justify;
+.banner-carousel{
+	flex-direction: column;
+}
+.top-image {
+	max-width: 158px;
+	margin-left: 1rem;
+	margin-top: 100px;
 }
 
-	/*form responsive*/
-	.contact-form .input1,
-	.contact-form .input2{
-		width: 300px;
-		height: 66px;
-	}
-	.contact-form .input3 {
-   	 width: 300px;
-	}
- 	/*footer icon responsive*/
-	.footer-icon{
-		margin: 0px 20px;
+.top-content {
+	margin-top: 10px;
+	z-index: 11;
+}
+
+.top-content h1 {
+	font-size: 3rem;
+}
+
+.top-content h3 {
+    font-size: 2rem;
+}    
+
+ 	.web-mobile-content a,
+ 	.promotional-video-description a {
+		font-size: 2rem;
+		padding: 1rem 2rem;
+		margin-top: .5rem;
 	}
 
-	 .extra-class{
-	 	flex-direction: column;
+	.promotional-video-description {
+		margin-bottom: 1rem;
+	}
 
-	 }
+	.promotional-video iframe {
+		width: 50%;
+		height: 100%;
+	}
+
+	.qoute-content h1 {
+		font-size: 2rem;
+		 
+	}
+
+	.profile-content > h1 {
+		font-size: 2rem;
+	}
+
+	.profile-content > h2 {
+		font-size: 1.8rem;
+	}
+
+	.client-single-logo {
+		margin: 0 auto;
+	}
+
+	.web-mobile-content {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.promotional-video-description {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.promotional-video {
+    	text-align: center;
+	}
+
+	.mobile-desciption {
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-top: 3rem;
+	}
+
+	.mobile-desciption-icon {
+		width: 80%;
+		margin: 3rem auto;
+	}
+
+	.mobile-description-image {
+		width: 80%;
+		margin: 2rem auto;
+	}
+
+	.footer-icon {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 3rem;
+	}
+	
+	.copy-right {
+	 
+	width: 80%;
+	margin: 2rem auto;
+	display: flex;
+	justify-content: start;
+	}
 }
 
 

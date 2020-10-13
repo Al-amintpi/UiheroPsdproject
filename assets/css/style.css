@@ -44,50 +44,29 @@ p {
    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   /*!!!!! 1.Menu area Css !!!!!!*/
  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.bannnar-area{
-	position: relative;
 
-}
-
-.banners.owl-carousel .owl-nav button.owl-prev span{
-	position: absolute;
-	top:50%;
-	left: 0;
-	margin-left: 2rem;
-	
-}
-
-.banners.owl-carousel .owl-nav span {
-	width: 4rem;
-	height: 4rem;
-	background: transparent;
-	border: 2px solid #FFF;
-	font-size: 4rem;
-	line-height: 27px;
-	color: #FFF;
-}
-
-.banners.owl-carousel .owl-nav button.owl-next span{
-	position: absolute;
-	right: 0;
-	top: 50%;
-	margin-right: 2rem;
-	
-}
-
-.single-item{
+.header-section {
+	height: 75rem;
 	position: relative;
 }
-
-.single-item::before {
-	content: "";
+ 
+.header-menu {
+	z-index: 12;
+	padding: 2rem;
+	position: absolute;
 	width: 100%;
-	height: 100%;
+	background: transparent;
+	margin: 0 auto;
+}
+
+.banner-up-content {
+	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(30, 27, 27, 0.78);
-	position: absolute;
+	width: 100%;
+	margin: 0 auto;
 }
+
 
 .menu-area .logo{
 	width: 50%;
@@ -99,20 +78,11 @@ p {
 	object-fit: cover;
 }
 
- .menu-area{
- 	padding-top: 3rem;
- 	z-index: 11;
- 	position: relative;
- }
-
-.menu ul li {}
-
 .menu ul li a {
 	color: #FFF;
 	padding: 1rem 2.4rem;
 	border-radius: 26px;
 	background: transparent;
-	margin-right: 2rem;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	font-family: Arial regular;
@@ -122,9 +92,8 @@ p {
 	background: #ff4b5a;
 }
 
-
-.content-area{
-
+.menu-icon{
+	display: none;
 }
 
 .top-image {
@@ -194,19 +163,58 @@ p {
 	color:#29ad60;
 }
 
-.banners.owl-theme .owl-dots .owl-dot span {
+.content-area.owl-carousel .owl-nav button.owl-prev span{
+	position: absolute;
+	top:50%;
+	left: 10px;
+	
+	
+}
+
+.content-area.owl-carousel .owl-nav span {
+	width: 4rem;
+	height: 4rem;
+	background: transparent;
+	border: 2px solid #ff4b5a;
+	font-size: 4rem;
+	line-height: 27px;
+	color: #FFF;
+	
+}
+
+.content-area.owl-carousel .owl-nav span:hover{
+	background: red;
+	color:#fff;
+}
+
+.content-area.owl-carousel .owl-nav button.owl-next span{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	
+}
+
+.content-area.owl-theme .owl-dots .owl-dot span {
 	margin-top: -100px;
 	z-index: 11;
 	position: relative;
-	background:#0c0c0d;
+	background:#0af96f;
 	width: 1.5rem!important;
 	height: 1.5rem!important;
 	 
 }
 
-.banners.owl-theme .owl-dots .owl-dot.active span{
-	background:#6d7d92!important;
+.content-area.owl-theme .owl-dots .owl-dot.active span{
+	background:#ff4b5a!important;
 }
+
+
+
+.fixedMenu{
+	position: fixed;
+	background: black;
+}
+
 
 button:focus {
 	outline: none;
@@ -256,15 +264,13 @@ button:focus {
 	margin-bottom: 1rem;
 }
 
-.web-mobile-content a,
-.promotional-video-description a{
+.web-mobile-content a, .promotional-video-description a {
 	font-size: 2rem;
 	padding: 1.5rem 3rem;
 	background: #ff4b5a;
 	color: #FFF;
 	margin-top: 2rem;
-	border-radius: 5px;
-	box-shadow: 5px 3px 10px 10px;
+	border-radius: 5px 5px 0 0;
 }
 
 .web-mobile-content a:hover{
@@ -274,6 +280,15 @@ button:focus {
    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   /*! 3.Video pomoational css!!!*/
  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ .promotional-video {
+	max-width: 500px;
+	height: 100%;
+}
+.promotional-video iframe {
+	width: 100%;
+	height: 100%;
+}
+
  .promotional-video-area {
  	margin-top:5rem;
  	margin-bottom: 10rem;
@@ -297,9 +312,7 @@ button:focus {
  .promotional-video-description a:hover{
  	background: #ff4b5a;
  }
- .promotional-video iframe{
- 	margin-top: 3.8rem;
- }
+ 
 
 
 
@@ -389,6 +402,10 @@ button:focus {
 	color: black;
 }
 
+ .qoute-item{
+ 	position: relative;
+ }
+
    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   /*! 5.video description css!!!*/
  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -401,13 +418,13 @@ button:focus {
 	border-bottom: 1px solid #b7b7b7;
 }
 
-.mobile-description-area h1 {
+.mobile-description-area h3 {
 	color: #72777f;
 	font-size: 3rem;
 	font-weight: 400;
 }
 
-.mobile-description-area h1 span {
+.mobile-description-area h3 span {
 	color: #323a45;
 	font-weight: 500;
 }
@@ -417,7 +434,7 @@ button:focus {
 	padding: 1.5rem 3rem;
 	background: #1fab5a;
 	color: #FFF;
-	border-radius: 5px;
+	border-radius: 0 0 5px 5px;
 	margin: 2rem 0;
 }
 
@@ -508,9 +525,9 @@ button:focus {
 	font-size: 2.5rem;
 }
 
-.client-single-logo{
-	width: 100%;
-	height: 100%;
+.client-single-logo {
+	width: 264px;
+	height: 59px;
 }
 
 .client-single-logo img{
