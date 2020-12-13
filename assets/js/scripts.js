@@ -37,9 +37,8 @@ $(document).ready(function(){
 	     
 	});
 
-	$('.twitter-feed-carousel').owlCarousel({
+	$('.twitter-carousel').owlCarousel({
 		items:1,
-		nav:false,
 		loop:true,
 		dots:false,
 		nav:true, 

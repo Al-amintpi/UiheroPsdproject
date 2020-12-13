@@ -740,6 +740,11 @@ button:focus {
 
 }
 
+.twitter-post.d-flex.align-items-center {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .twitter-feed-logo {
 	margin: 3rem;
 }
@@ -760,24 +765,24 @@ button:focus {
 	font-family: Caecilia italic;
 }
 
-.twitter-feed-carousel.owl-carousel .owl-nav button.owl-next span {
+.twitter-carousel.owl-carousel .owl-nav button.owl-next span {
 	position: absolute;
 	width: 100%;
 	height: 0;
-	top: -59%;
+	top: 40%;
 	right: -50%;
 }
 
-.twitter-feed-carousel.owl-carousel .owl-nav button.owl-prev span{
+.twitter-carousel.owl-carousel .owl-nav button.owl-prev span{
 	position: absolute;
 	width: 100%;
 	height: 0;
-	top:-59%;
+	top:40%;
 	left: -50%;
 	
 }
 
-.twitter-feed-carousel.owl-carousel .owl-nav button span{
+.twitter-carousel.owl-carousel .owl-nav button span{
 	color:#FFF;
 	font-size: 7rem;
 }
